@@ -12,4 +12,6 @@ Console.WriteLine(novaIdade);
 const double PI = 3.14;
 Console.WriteLine(PI);
 
-
+// Byte
+byte meuByte = 127;
+Console.WriteLine(meuByte);

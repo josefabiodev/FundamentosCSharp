@@ -57,4 +57,38 @@ Definições
             Tipos Nulos (Nullable Types)
 
  ## System
-    
+    No .NET tudo começa de um tipo base chamado system
+    Todo e qualquer tipo, seja built-in ou complexo, deriva dele
+    Ele é a base de todos os objetos no .NET
+    Seu uso já é implícito
+
+## Byte
+    O tipo byte é utilizado para representar um bute de fato
+    Temos também o sbyte, que permite valores negativos
+
+    Definições
+        byte (8 bits)
+            0 até 255
+        sbyte (8 bit)
+            -128 até 127
+
+## Números inteiros
+    Números inteiros, ou seja, sem pontuação, podem ser definidos pelos tipos:
+        - short/ushort
+        - int/uint
+        - long/ulong
+    O tipo int é o mais comum a ser encontrado
+
+int: 32 bits.  de -2.147.483.648 a 2.147.483.647. 
+
+long: 64 bits. de -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807. 
+
+short: 16 bits. de -32.768 a 32.767. 
+
+ushort: 16 bits. de 0 a 65.535.
+
+uint (Unsigned Integer): 32 bits. de 0 a 4.294.967.295.
+É comumente usado quando você precisa armazenar valores inteiros que não podem ser negativos e não precisam de um intervalo de valores negativos.
+
+ulong (Unsigned Long): 64 bits. de 0 a 18.446.744.073.709.551.615.
+É usado quando você precisa armazenar valores inteiros sem sinal que tenham um intervalo de valores muito grande.
