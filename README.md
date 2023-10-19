@@ -92,3 +92,19 @@ uint (Unsigned Integer): 32 bits. de 0 a 4.294.967.295.
 
 ulong (Unsigned Long): 64 bits. de 0 a 18.446.744.073.709.551.615.
 É usado quando você precisa armazenar valores inteiros sem sinal que tenham um intervalo de valores muito grande.
+
+## Números reais
+    Números que exigem uma maior precisão, ou seja, com pontuação
+        - float (Notação F)
+        - double
+        - decimal (Notação M)
+    Possuem assimilação negativa e positiva por padrão, dispensando uso do signed/unsigne em seus tipos
+
+    float (32 bit)
+        -3.402823e38 até 3.402823e38
+    double (64 bit)
+        -1.79769313486232e308 até 1.79769313486232e308
+    decimal (128 bit)
+        (= ou -) 1.0x10e28 até 7.9x10e28
+
+## Boolean    
