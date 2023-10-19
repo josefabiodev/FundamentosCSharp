@@ -7,3 +7,9 @@ var idade = 25; // Correto
 int novaIdade = 25; //Correto
 Console.WriteLine(idade);
 Console.WriteLine(novaIdade);
+
+// Constantes
+const double PI = 3.14;
+Console.WriteLine(PI);
+
+
