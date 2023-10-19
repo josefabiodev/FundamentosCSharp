@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Runtime.CompilerServices;
+
 Console.WriteLine("Fundamentos do C#");
 
 var idade = 25; // Correto
@@ -15,3 +17,22 @@ Console.WriteLine(PI);
 // Byte
 byte meuByte = 127;
 Console.WriteLine(meuByte);
+
+// Booleano
+bool usuarioJaCadastrado = false;
+var usuarioInativo = true;
+Console.WriteLine(usuarioJaCadastrado);
+Console.WriteLine(usuarioInativo);
+
+// Char
+char letra = 'a';
+Console.WriteLine(letra);
+
+// String
+string nome = "Qualque nome";
+Console.WriteLine(nome);
+
+// Var
+var idadeAndre = 25;
+var nomeAndre = "André";
+Console.WriteLine($"{idadeAndre} {nomeAndre}");

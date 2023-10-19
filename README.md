@@ -107,4 +107,32 @@ ulong (Unsigned Long): 64 bits. de 0 a 18.446.744.073.709.551.615.
     decimal (128 bit)
         (= ou -) 1.0x10e28 até 7.9x10e28
 
-## Boolean    
+## Boolean
+    Tipo booleano, armazena apenas true e false (Verdadeiro e Falso)
+    Definido pela palavra reservada bool
+    bool (8 bit)
+        true ou false
+
+## Char
+    Utilizado para armazenar apenas um caractere no formato Unicode
+    Definido pela palavra reservada char
+    A atribuição de um valor pe dada por aspas simples
+    char (16 bit)
+        Qualquer caractere
+
+## String
+    Armazena uma cadeia de caracteres
+    Podemos pensar nele como uma lista de char
+    Definido pela palavra reservada string
+    A atribuição de um valor string é dada por aspas duplas
+    string (?)
+        Uma cadeia de caracteres
+
+## Var
+    Substitui o nome de um tipo
+    Será do tipo do primeiro valor atribuído
+    Recomendado o uso
+        Deixar para usar var quando já dominar os tipos
+
+var idade = 25; // Será do tipo int
+var nome = "André"; // Srá do tipo string
