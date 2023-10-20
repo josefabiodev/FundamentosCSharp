@@ -379,3 +379,25 @@ while (valor , 5);
     {
         Console.WriteLine(paramentro);
     }
+
+## Referece Types (Tipos de referência)
+    A memória é dividida em duas partes, **Heap** e **Stack**
+    Heap armazena os dados
+    Stark armazena as referências para os dados
+
+    Qualquer tipo no .NET é tratado como:
+        * Tipo de Referência (Reference Type)
+        * Tipo de Valor (Value Type)
+    Tipos de valor armazenam dados
+    São armazenados em um local da memória chamada **stack**
+
+    Armazenam o endereço do objeto que contém os dados
+    Não armazena os dados em si
+    São armazenados em um local da memória chamado de __Heap__
+    Ao assimilar uma variável:
+        * Criará uma referência
+        * Aponta para mesma informação
+        * Não são independentes
+    Qunado não utilizados são marcados para exclusão
+    **Garbage Collector** passa remocendo todos eles
+    Classes, Objects, Arrays...

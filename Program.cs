@@ -132,3 +132,24 @@ while (valor2 < 5);
 //metodos.MeuMetodo();
 Metodos.MeuMetodo();
 Metodos.retornaNome("Fábio");
+
+// Value Types e reference Types
+int x = 25; // Tipo de valor
+int y = x; // Tipo de referência
+Console.WriteLine(x);
+Console.WriteLine(y);
+
+x = 32;
+Console.WriteLine(x);
+Console.WriteLine(y);
+
+var arr = new string[2];
+arr[0] = "item 1";
+
+var arr2 = arr;
+Console.WriteLine(arr[0]);
+Console.WriteLine(arr2[0]);
+
+arr[0] = "item 2";
+Console.WriteLine(arr[0]);
+Console.WriteLine(arr2[0]);
