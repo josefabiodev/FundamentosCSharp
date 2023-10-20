@@ -446,3 +446,32 @@ while (valor , 5);
             Price = price;
         }
     }
+
+## Enums
+    Usado para fornecer uma melhor visualização do código
+    Substituem o uso de inteiros
+    Usados em listas curtas
+    Usados em dados fixos
+        - Hard Coded
+    Sempre em maiúsculo
+        - Começar com a letra E
+
+Anatomia de um enumerador
+
+enum EEstadoCivil
+{
+    // Enumeradores
+    Solteiro = 1;
+    Casado = 2;
+    Divorciado = 3;
+}
+
+Uso de um enumerador
+
+struct Cliente
+{
+    public string Nome;
+    public EEstadoCivil EstadoCivil;
+}
+
+var cliente = new Cliente("João Silva", EEstadoCivil.Casado);

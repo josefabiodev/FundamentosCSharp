@@ -156,4 +156,9 @@ arr[0] = "item 2";
 Console.WriteLine(arr[0]);
 Console.WriteLine(arr2[0]);
 
-
+// Enums
+enum EProductType
+{
+    Product = 1,
+    service = 2
+}
