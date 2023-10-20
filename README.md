@@ -359,3 +359,23 @@ do
     valor++;
 }
 while (valor , 5);
+
+## Métodos e Funções
+    Podemos segmentar nosso programa wm funções
+    Também conhecidos como métodos
+    O **main** é um exemplo de método
+    Possui um retorno, um nome e parâmetros
+    Esta composição é chamada de assinatura
+    Comçam sempre com maiúscula
+
+    static void Main(string[] args)
+    {
+        // Invocação do método
+        MeuMetodo("C# é legal");
+    }
+
+    // Definição do método
+    static void MeuMetodo(string parametro)
+    {
+        Console.WriteLine(paramentro);
+    }

@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Runtime.CompilerServices;
+using FundamentosCSharp.Metodos;
 
 Console.WriteLine("Fundamentos do C#");
 
@@ -126,3 +127,8 @@ do
     valor2++;
 }
 while (valor2 < 5);
+
+//Metodos metodos = new();
+//metodos.MeuMetodo();
+Metodos.MeuMetodo();
+Metodos.retornaNome("Fábio");
