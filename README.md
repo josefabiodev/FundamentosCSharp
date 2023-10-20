@@ -136,3 +136,17 @@ ulong (Unsigned Long): 64 bits. de 0 a 18.446.744.073.709.551.615.
 
 var idade = 25; // Será do tipo int
 var nome = "André"; // Srá do tipo string
+
+# Object
+    Tipo genérico que recebe qualquer valor ou objeto
+    Não possui intelisense
+    Evite usar
+    objetct idade = 25;
+
+## Nullable Types
+    Significa vazio, nada
+    Diferente de zero ou uma string vazia
+    Tdo tipo, primitivo ou complexo, pode receber o valor null
+    O tipo deve ser marcado com Nullable Type
+
+## Alias
