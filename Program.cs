@@ -117,3 +117,12 @@ while (valor1 <= 5)
     Console.WriteLine(valor1);
     valor1++;
 }
+
+// Laço do while
+var valor2 = 0;
+do 
+{
+    Console.WriteLine(valor2);
+    valor2++;
+}
+while (valor2 < 5);

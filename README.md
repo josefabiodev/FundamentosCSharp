@@ -334,8 +334,8 @@ for (var i = 5; i >= 0; i--)
     Console.WriteLine(i);
 }
 
-## Laço de epetição while
-    Tradução "Enwuanto", ou seja, enquanto uma condição for verdadeira...
+## Laço de repetição while
+    Tradução "Enquanto", ou seja, enquanto uma condição for verdadeira...
     Definido pela palavra while
     Exige apenas uma condição
     Checa a condição ANTES de executar
@@ -345,3 +345,17 @@ while (valor <= 5)
     Console.WriteLine(valor);
     valor++;
 }
+
+## Laço de repetição do while
+    tradução "Faça", ou seja, realiza uma ação enquanto...
+    Definido pela palavra do/while
+    Exige apenas uma condição no while
+    Checa a condição DEPOIS de executar
+
+var valor = 0;
+do 
+{
+    Console.WriteLine(valor);
+    valor++;
+}
+while (valor , 5);
