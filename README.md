@@ -150,3 +150,40 @@ var nome = "André"; // Srá do tipo string
     O tipo deve ser marcado com Nullable Type
 
 ## Alias
+    Alias é um apelido que todo tipo no .NET tem
+    Por exemplo:
+        - System.String tem o alias string
+    Como o C# é Case Sensitive, tanto faz escrevermos um ou outro
+    Porém. o recomendado é sempre usar o alis
+    No caso abaixo o resultado é o mesmo
+        - Com alias excrevemos menos
+    int idade = 25;
+    int32 idade = 25;
+
+ ## Valores padrões
+    Todo tipo nuilt-in já possui um valor padrão
+    Se nenhum valor for informado, seu valor padrão será utilizado
+        - int => 0
+        - float => 0
+        - decimal => 0
+        - bool => false
+        - char => '\0'
+        - string => ""
+
+ ## Conversão implícita
+       Existem dois tipos de conversão, as implícitas e as explícitas
+       As implícitas são conversões que:
+        - Podem ser executadas apenas com passagem de dados
+        - Possuem tipos compatíveis
+
+    float valor = 25.8F;
+    int outro = 25;
+
+    valor = outro; // Conversão implícita
+
+## Conversão explícita
+    Ocorre quando os tipos não são compatíveis
+    É dada pelo uso do tipo entre parênteses antes da atribuição
+
+    int inteiro = 100;
+    uint inteiroSemSinal = (uint)inteiro;
