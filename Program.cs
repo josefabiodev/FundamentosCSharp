@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 using FundamentosCSharp.Metodos;
+using FundamentosCSharp.Structs;
 
 Console.WriteLine("Fundamentos do C#");
 
@@ -153,3 +155,5 @@ Console.WriteLine(arr2[0]);
 arr[0] = "item 2";
 Console.WriteLine(arr[0]);
 Console.WriteLine(arr2[0]);
+
+

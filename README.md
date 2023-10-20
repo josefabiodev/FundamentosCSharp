@@ -401,3 +401,48 @@ while (valor , 5);
     Qunado não utilizados são marcados para exclusão
     **Garbage Collector** passa remocendo todos eles
     Classes, Objects, Arrays...
+
+## Structs
+    Tipos de dado estruturado
+    Apenas a estrutura, o esqueleto
+    Tipo de valor
+    Armazenam apenas outros tipos de dados
+    Definido pela palavra struct
+    Composto de propriedades e métodos
+    Nome sempre com maiúsculo
+        - O mesmo para prorpiedades e métodos
+    Criado a partir da palavra new
+        - Neste momento sim temos os valores
+
+    A anatomia de uma estrutura normalmente é:
+
+    struct Product
+    {
+        // Propriedades
+        public int Id;
+        public float Price;
+
+        // Métodos
+        public float PriceInDolar(float dolar)
+        {
+            return Price * dolar;
+        }
+    }
+
+    para criar uma estrutura:
+
+    var product = new Product();
+    product.Id = 1;
+    product.Price = 197.23f;
+
+    Método construtor é um método com o mesmo nome da struct
+
+    struct Product
+    {
+        public Product(int id, string title, float price) 
+        {
+            Id = id;
+            Title = title;
+            Price = price;
+        }
+    }
