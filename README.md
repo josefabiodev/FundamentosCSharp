@@ -264,4 +264,84 @@ int inteiro = Convert.ToInt32("100");
     NEGAÇÃO - not
         - !
     
+## Estrutura condicional: if
+    Tradução: "SE" ou seja, "caso alguma condição seja atendida"
+    Utilizado para tomada de decisão
+    Utiliza os operadores lógicos
+    Caso a condição não eja atendida
+    podemos ter
+        - else if (condição)
+    podemos ter apenas else para executar algo caso a condição seja atendida
 
+    if(condição) {
+
+    }else {
+
+    }
+
+
+    if(condição) {
+
+    }else if(condição) {
+        
+    }else if(condição) {
+
+    }else {
+
+    }
+
+## Estrutura condicional switch
+    Utilizado quando temos muitas decisões
+    executado em cascata
+    Devemos para manual emnte a execução com o comando break
+    Possui uma execução padrão chamada default
+
+    int valor = 1;
+    switch (valor)
+    {
+        case 1:
+            Console.WriteLine("1");
+            break;
+        case 2:
+            Console.WriteLine("2");
+            break;
+        case 3:
+            Console.WriteLine("3");
+            break;
+        default:
+            Console.WriteLine("4");
+            break;
+    }
+
+# Laços de repetição
+
+## Laço de repetição for
+    Tradução "para", ou seja, para cada item em um valor
+    Executa uma determinada ação várias vezes
+    Definido pela palavra for
+    Exige 3 parâmetros:
+        - Contador
+        - Condição
+        - Incremento
+
+for (var i = 0; i <= 5; i++) 
+{
+    Console.WriteLine(i);
+}
+
+for (var i = 5; i >= 0; i--) 
+{
+    Console.WriteLine(i);
+}
+
+## Laço de epetição while
+    Tradução "Enwuanto", ou seja, enquanto uma condição for verdadeira...
+    Definido pela palavra while
+    Exige apenas uma condição
+    Checa a condição ANTES de executar
+var valor = 0;
+while (valor <= 5) 
+{
+    Console.WriteLine(valor);
+    valor++;
+}
