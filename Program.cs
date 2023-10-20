@@ -36,3 +36,10 @@ Console.WriteLine(nome);
 var idadeAndre = 25;
 var nomeAndre = "André";
 Console.WriteLine($"{idadeAndre} {nomeAndre}");
+
+int inteiro = 100;
+float real = 25.5f;
+
+real = inteiro; // Permitido
+/*inteiro = real; // Não suportado*/
+inteiro = (int)real; // Permitido

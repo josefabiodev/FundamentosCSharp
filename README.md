@@ -187,3 +187,81 @@ var nome = "André"; // Srá do tipo string
 
     int inteiro = 100;
     uint inteiroSemSinal = (uint)inteiro;
+
+## Parse
+    Método presente em todo tipo primitivo
+    Usado para converter um caractere ou string para um tipo qualquer
+    Caso acha alguma incompatibilidade, gera um erro
+
+    int inteiro = int.Parse("100");
+
+## Convert
+    Similar ao parse
+    Porém permite converter vários tipos de valor
+     - Não apenas strings
+    Devemos informar o tipo na chamada da conversão
+
+int inteiro = Convert.ToInt32("100");
+
+## Convertendo tipos
+
+## Operadores aritméticos
+    Soma -> +
+    Subtração -> -
+    Multiplicação -> *
+    Divisão -> /
+    Modulo -> %
+
+    Multiplicação e divisão são executados primeiros
+    Caso queira executar em outra ordem, usar parênteses
+    aceita short, int, float, double e decinal
+
+    Em caso de uso de números inteiros
+        - se o valor for real, será arredondado
+        - 4.4 = 5
+
+    int soma = 25 + 22; // 47
+    int subtracao = 25 -22; // 3
+    int divisao = 22 / 5; // 4 - Foi aredondado
+    int multiplicacao = 25 * 22; // 560
+
+## Operadores de atribuição
+    Utilizamos = para atribuir um valor
+    Porém, podemos utilizar = junto a um operador aritmético
+    - x += 5 é o mesmo que x = x + 5
+
+    int x = 0;
+    x += 5;
+    x -= 1;
+    x *= 10;
+    x /= 2;
+
+## Operadores de comparação
+    - igual ==
+    diferente !=
+    menor que <
+    maior que >
+    menor ou igual <=
+    maior ou igual >=
+
+    int x = 25;
+    x == 0; // false
+    x != 0; // true
+    x > 0; // true
+    x < 0; // false
+    x <= 0; // false
+    x>= 0; // true
+
+## Operadores lógicos
+    Usados para operações condicionais
+    Retorna sempre verdadeiro ou falso
+    E - and
+        - Deve atender TODAS as condições
+        - &&
+    OU - or
+        - Se atender uma condição já retorna verdadeiro
+        - ||
+    NEGAÇÃO - not
+        - !
+    
+
